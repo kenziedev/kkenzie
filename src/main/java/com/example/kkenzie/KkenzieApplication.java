@@ -11,7 +11,7 @@ public class KkenzieApplication {
 
     @GetMapping("/")
     public String kkenzie(){
-        return "k kenzie page - not loadbalance";
+        return "k kenzie page - 로드밸런싱 보조 프로젝트";
     }
     public static void main(String[] args) {
         SpringApplication.run(KkenzieApplication.class, args);
